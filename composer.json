@@ -1,0 +1,14 @@
+{
+  "name": "flxxyz/like",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Common/function.php"
+    ]
+  },
+  "require": {
+    "flxxyz/framework": "^0.0.1"
+  }
+}

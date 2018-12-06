@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "61c549acf1e4243142c5e9cfd6950f75",
+    "packages": [
+        {
+            "name": "flxxyz/framework",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flxxyz/framework.git",
+                "reference": "de690d660a41c8f6fa6eca28ce705287047b98af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flxxyz/framework/zipball/de690d660a41c8f6fa6eca28ce705287047b98af",
+                "reference": "de690d660a41c8f6fa6eca28ce705287047b98af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Col\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "flxxyz",
+                    "email": "i@mdzz.name"
+                }
+            ],
+            "description": "This is a simple PHP framework",
+            "homepage": "https://github.com/flxxyz/framework",
+            "time": "2018-12-06T14:45:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
