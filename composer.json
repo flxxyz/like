@@ -9,6 +9,6 @@
     ]
   },
   "require": {
-    "flxxyz/framework": "^0.0.1"
+    "flxxyz/framework": "dev-master"
   }
 }

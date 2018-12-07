@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "61c549acf1e4243142c5e9cfd6950f75",
+    "content-hash": "c3b9ef2bce189e8f5a1057c6cb3e25d8",
     "packages": [
         {
             "name": "flxxyz/framework",
-            "version": "0.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flxxyz/framework.git",
-                "reference": "de690d660a41c8f6fa6eca28ce705287047b98af"
+                "reference": "4e95021c79eb925b5001f7a43c43b1aef00cf116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flxxyz/framework/zipball/de690d660a41c8f6fa6eca28ce705287047b98af",
-                "reference": "de690d660a41c8f6fa6eca28ce705287047b98af",
+                "url": "https://api.github.com/repos/flxxyz/framework/zipball/4e95021c79eb925b5001f7a43c43b1aef00cf116",
+                "reference": "4e95021c79eb925b5001f7a43c43b1aef00cf116",
                 "shasum": ""
             },
             "require": {
@@ -44,13 +44,15 @@
             ],
             "description": "This is a simple PHP framework",
             "homepage": "https://github.com/flxxyz/framework",
-            "time": "2018-12-06T14:45:52+00:00"
+            "time": "2018-12-07T10:25:44+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "flxxyz/framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
