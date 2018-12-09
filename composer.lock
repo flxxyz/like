@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "c3b9ef2bce189e8f5a1057c6cb3e25d8",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flxxyz/framework.git",
-                "reference": "4e95021c79eb925b5001f7a43c43b1aef00cf116"
+                "reference": "27e49bb4ff10e1e7790613b9297f39f2b4b46407"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flxxyz/framework/zipball/4e95021c79eb925b5001f7a43c43b1aef00cf116",
-                "reference": "4e95021c79eb925b5001f7a43c43b1aef00cf116",
+                "url": "https://api.github.com/repos/flxxyz/framework/zipball/27e49bb4ff10e1e7790613b9297f39f2b4b46407",
+                "reference": "27e49bb4ff10e1e7790613b9297f39f2b4b46407",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
             ],
             "description": "This is a simple PHP framework",
             "homepage": "https://github.com/flxxyz/framework",
-            "time": "2018-12-07T10:25:44+00:00"
+            "time": "2018-12-08T02:16:47+00:00"
         }
     ],
     "packages-dev": [],
