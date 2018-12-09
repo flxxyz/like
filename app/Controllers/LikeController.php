@@ -26,10 +26,10 @@ class LikeController extends BaseController
      */
     public function get(Request $request)
     {
-        list($user, $domain) = $this->checkParam($request);
-
-        $name = $request->get('user', 'flxxyz');
+        $name = $request->get('user');
         $key = $request->get('key');
+
+        list($user, $domain) = $this->checkParam($name, $key);
 
         $domain_total = DomainTotal::where([
             'user_id' => $user->id,
@@ -54,10 +54,10 @@ class LikeController extends BaseController
      */
     public function add(Request $request)
     {
-        list($user, $domain) = $this->checkParam($request);
+        $name = $request->post('user');
+        $key = $request->post('key');
 
-        $name = $request->get('user', 'flxxyz');
-        $key = $request->get('key');
+        list($user, $domain) = $this->checkParam($name, $key);
 
         $domain_total = DomainTotal::where([
             'user_id' => $user->id,
@@ -89,14 +89,12 @@ class LikeController extends BaseController
 
     /**
      * 检查参数
-     * @param Request $request
+     * @param $name
+     * @param $key
      * @return array|false|string
      */
-    public function checkParam(Request $request)
+    public function checkParam($name, $key)
     {
-        $name = $request->get('user', 'flxxyz');
-        $key = $request->get('key');
-
         $this->checkReferer($name, $key);
 
         $domain = Domain::where([

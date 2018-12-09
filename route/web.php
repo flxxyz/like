@@ -7,4 +7,4 @@ Route::any('/', function () {
 
 Route::get('/get', 'LikeController@get');
 
-Route::get('/add', 'LikeController@add');
+Route::post('/add', 'LikeController@add');
